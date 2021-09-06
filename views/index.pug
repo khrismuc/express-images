@@ -1,0 +1,11 @@
+html
+  head
+    title Express and Pug
+  body
+    h1 Template rendering
+    #images
+      each image in images
+        img(src="images/"+image, width="100px")
+    h1 Ajax Target
+    #ajaximages
+    script(src="/client.js")
